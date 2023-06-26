@@ -7,7 +7,7 @@ import Vector_database
 import Answer_Question
 #
 #On récupère le texte et la clés de l'api d'openai:
-myfile = open("Python\env1\Text.txt", encoding="utf8").read()
+myfile = open("https://github.com/HassaniJawaheer/API_LLM_chromadb.git/Text.txt", encoding="utf8").read()
 openai_key = "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"
 # On crée l'API:
 app = FastAPI()
