@@ -1,2 +1,2 @@
-# API_LLM_chromadb
+# API to communicate with your notes
 Création  d'un api avec fastapi, qui prend en entrée une question et va chercher la réponse dans un document(txt ou pdf). Pour chercher cette réponse. Je divise le document en chunks(de 500 tokens) en utilisant CharacterTextsplitter et RecursiveTextSplitter. Ensuite, j'utilise la base de données vectorielles(ChromaDB), OpenAIEmbedding (pour les text) et SentencetransformersEmbedding (pour les pdf) pour la vectorisation. Enfin pour générerla réponse, j'utilise le modèle de LLM d'open AI avec la chain "stuff" ou "map_reduce". 
